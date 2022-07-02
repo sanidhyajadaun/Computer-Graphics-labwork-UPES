@@ -31,3 +31,21 @@ Step 11 - End Algorithm<br>
 
 
 #
+
+## **Experiment 2 : Program to draw a line using Bresenham’s Algorithm**
+
+It contains the program to draw a line using Bresenham’s Algorithm.
+
+Algorithm:
+
+The big advantage of this algorithm is that, it uses only integer calculations. Moving across the x axis in unit intervals and at each step choose between two different y coordinates. 
+
+Here is the Bresenham algorithm for slope m < 1 – 
+
+Step 1 − Input the 2 end-points of line (X0, Y0) & (X1, Y1), storing the left end-point in (X0, Y0). <br>
+Step 2 − Plot the point (X0, Y0). <br>
+Step 3 − Calculate the value of constants dx, dy, 2dy, and (2dy – 2dx) and get the first value for the decision parameter as – P0 = 2dy−dx <br>
+Step 4 − At each Xk, Yk along the line, starting at k = 0, perform the following test − If Pk < 0, the next point to plot is (Xk+1, Yk) and Pk+1 = Pk+2dy Otherwise, the next point to plot is (Xk+1, Yk+1) and Pk+1 = Pk+2dy-2dx. <br>
+Step 5 − Repeat step 4 (dx – 1) times. For m > 1, find out whether you need to increment x while incrementing y each time. After solving, the equation for decision parameter Pk will be very similar, just the x and y in the equation gets interchanged.<br>
+
+#
