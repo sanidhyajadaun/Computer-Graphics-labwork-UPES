@@ -49,3 +49,17 @@ Step 4 − At each Xk, Yk along the line, starting at k = 0, perform the followi
 Step 5 − Repeat step 4 (dx – 1) times. For m > 1, find out whether you need to increment x while incrementing y each time. After solving, the equation for decision parameter Pk will be very similar, just the x and y in the equation gets interchanged.<br>
 
 #
+
+## **Experiment 3 : To Implement basic In-built function in graphics.h**
+
+It contains Program to draw a :- <br>
+1. Line<br>
+2. Circle <br>
+3. Triangle<br>
+4. Rectangle <br>
+5. Square <br>
+6. Ellipse<br>
+7. Arc<br>
+8. Incircle<br>
+
+#
