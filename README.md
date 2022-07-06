@@ -69,3 +69,10 @@ It contains Program to draw a :- <br>
 It contains the program to build a hut.
 
 # 
+
+## **Experiment 5 : Program to draw equation of line y=mx+c**
+
+It contains the program to draw equation of line y=mx+c.
+
+
+#
