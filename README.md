@@ -83,3 +83,13 @@ Mid-Point Circle Drawing Algorithm
 
 This algorithm is used to calculate all the perimeter points of the circle in the first octant and then print them along with their mirror points in the other octants. This will work only because a circle is symmetric about its center. 
 
+Step 1 − Input radius r and circle center (Xc, Yc) and obtain the first point on the circumference of the circle centered on the origin as (X0, Y0) = (0, r)<br>
+Step 2 − Calculate the initial value of decision parameter as P0 = 5/4 – r . <br>
+Step 3 − At each Xk position starting at k=0, perform the following test − If PK < 0, then next point on circle (0, 0) is (XK+1, YK) and PK+1 = PK + 2XK+1 + 1 Else, PK+1 = PK + 2XK+1 + 1 – 2YK+1 Where, 2XK+1 = 2XK+2 and 2YK+1 = 2YK-2. <br>
+Step 4 − Determine the symmetry points in other seven octants. <br>
+Step 5 − Move each calculate pixel position (X, Y) onto the circular path centered on (Xc, Yc) and plot the coordinate values. X = X + XC, Y = Y + YC <br>
+Step 6 − Repeat step-3 through 5 until X >= Y. <br>
+
+
+#
+
