@@ -76,3 +76,10 @@ It contains the program to draw equation of line y=mx+c.
 
 
 #
+
+## **Experiment 6 : Drawing circle using Midpoint Algorithm**
+
+Mid-Point Circle Drawing Algorithm
+
+This algorithm is used to calculate all the perimeter points of the circle in the first octant and then print them along with their mirror points in the other octants. This will work only because a circle is symmetric about its center. 
+
