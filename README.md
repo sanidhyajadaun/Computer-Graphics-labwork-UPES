@@ -93,3 +93,23 @@ Step 6 − Repeat step-3 through 5 until X >= Y. <br>
 
 #
 
+## **Experiment 7 : Drawing ellipse using Midpoint Ellipse Drawing Algorithm**
+
+The midpoint ellipse method is applied throughout the first quadrant in two parts.
+
+Take input radius along x axis and y axis and obtain center of ellipse.<br>
+Step 1 - Initially, we assume ellipse to be centered at origin and the first point as : (x, y0)= (0, ry).<br>
+Step 2 - Obtain the initial decision parameter for region 1 as: p10=ry2+1/4rx2-rx 2ry. <br>
+Step 3 - For every xk position in region 1 : <br>
+If p1k<0 then the next point along the is (xk+1 , yk) and p1k+1=p1k+2ry2xk+1+ry2<br>
+Else, the next point is (xk+1, yk-1 ) <br>
+And p1k+1=p1k+2ry2xk+1 – 2rx2yk+1+ry2 <br>
+Step 4 - Obtain the initial value in region 2 using the last point (x0, y0) of region 1 as: p20=ry2(x0+1/2)2+rx2 (y0-1)2-rx2ry2<br>
+Step 5 - At each yk in region 2 starting at k =0 perform the following task.<br> 
+If p2k>0 the next point is (xk, yk-1) and p2k+1=p2k-2rx2yk+1+rx2. <br>
+Step 6 - Else, the next point is (xk+1, yk -1) and p2k+1=p2k+2ry2xk+1 -2rx2yk+1+rx2. <br>
+Step 7 - Now obtain the symmetric points in the three quadrants and plot the coordinate value as: x=x+xc, y=y+yc. <br>
+Step 8 - Repeat the steps for region 1 until 2ry2x>=2rx2y. <br>
+
+#
+
