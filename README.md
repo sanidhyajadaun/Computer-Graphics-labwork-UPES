@@ -113,3 +113,19 @@ Step 8 - Repeat the steps for region 1 until 2ry2x>=2rx2y. <br>
 
 #
 
+## **Experiment 8 : Filling the Objects using boundary fill algorithm**
+
+Boundary Fill Algorithm<br>
+
+This algorithm picks a point inside an object and starts to fill until it hits the boundary of the object. The color of the boundary and the color that we fill should be different for this algorithm to work. In this algorithm, we assume that color of the boundary is same for the entire object. <br>
+
+Step 1 − It takes an interior point(x, y), a fill color, and a boundary color as the input. <br>
+
+Step 2 − The algorithm starts by checking the color of (x, y). If it’s color is not equal to the fill color and the boundary color, then it is painted with the fill color and the function is called for all the neighbours of (x, y). <br> 
+
+Step 3 −If a point is found to be of fill color or of boundary color, the function does not call its neighbours and returns. <br>
+
+Step 4 −This process continues until all points up to the boundary color for the region have been tested. <br>
+
+#
+
