@@ -129,3 +129,18 @@ Step 4 −This process continues until all points up to the boundary color for t
 
 #
 
+## **Experiment 9 : Filling the Objects using flood fill algorithm**
+
+Flood Fill Algorithm (4-connected & 8-connected) <br>
+ 
+Instead of relying on the boundary of the object, it relies on the fill colour. In other words, it replaces the interior colour of the object with the fill colour. When no more pixels of the original interior colour exist, the algorithm is completed. Algorithm for 4-connected :- <br> 
+
+Step 1 − Initialize the value of seed point (seedx, seedy), fcolor and dcol. <br>
+Step 2 − Define the boundary values of the polygon. <br>
+Step 3 − Check if the current seed point is of default color, then repeat steps 4 and 5 till the boundary pixels are reached. <br>
+Step 4 − Change the default color with the fill color at the seed point.<br>
+Step 5 − Recursively follow the procedure with four neighborhood points. <br>
+Step 6 − Exit <br>
+
+#
+
