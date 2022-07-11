@@ -144,3 +144,15 @@ Step 6 − Exit <br>
 
 #
 
+## **Experiment 10 : Filling the Objects using Scan line algorithm**
+
+Scan Line Algorithm 
+
+This algorithm works by intersecting scan line with polygon edges and fills the polygon between pairs of intersections. The following steps depict how this algorithm works. <br>
+
+Step 1 − Find out the Ymin and Ymax from the given polygon. <br>
+Step 2 − ScanLine intersects with each edge of the polygon from Ymin to Ymax. Name each intersection point of the polygon. As per the figure shown above, they are named as p0, p1, p2, p3. <br>
+Step 3 − Sort the intersection point in the increasing order of X coordinate i.e. (p0, p1), (p1, p2), and (p2, p3). <br>
+Step 4 − Fill all those pairs of coordinates that are inside polygons and ignore the alternate pairs.<br>
+
+#
