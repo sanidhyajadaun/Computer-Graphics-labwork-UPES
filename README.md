@@ -156,3 +156,9 @@ Step 3 − Sort the intersection point in the increasing order of X coordinate i
 Step 4 − Fill all those pairs of coordinates that are inside polygons and ignore the alternate pairs.<br>
 
 #
+
+## **Experiment 11 : Performing Clipping Operation using Cohen Sutherland Algorithm**
+
+It contains program for performing the line clipping operation using Cohen Sutherland.
+ 
+#
