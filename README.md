@@ -162,3 +162,9 @@ Step 4 − Fill all those pairs of coordinates that are inside polygons and igno
 It contains program for performing the line clipping operation using Cohen Sutherland.
  
 #
+
+## **Experiment 12 : Performing Clipping Operation on polygon using Sutherland Hodgeman Algorithm**
+
+It contains program for performing Clipping Operation on polygon using Sutherland Hodgeman Algorithm.
+
+#
