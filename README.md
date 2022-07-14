@@ -168,3 +168,10 @@ It contains program for performing the line clipping operation using Cohen Suthe
 It contains program for performing Clipping Operation on polygon using Sutherland Hodgeman Algorithm.
 
 #
+
+## **Experiment 13 : Character Generation**
+
+It contains program for performing character generation. <br>
+Character generated :- "L"
+
+#
