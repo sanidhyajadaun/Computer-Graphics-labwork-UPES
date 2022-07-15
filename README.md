@@ -186,3 +186,10 @@ Transformations play a very important role in manipulating objects on screen. Th
 Translation: Translation refers to moving an object to a different position on screen. <br>
 Formula: X = x + tx, Y = y + ty; where tx and ty are translation coordinates <br>
 The OpenGL function is glTranslatef( tx, ty, tz ); <br>
+
+Rotation : Rotation refers to rotating a point. <br>
+Formula: X = xcosA – ysinA, Y = xsinA + ycosA; A is the angle of rotation. <br>
+The above formula will rotate the point around the origin. To rotate around a different point, the formula: <br>
+X = cx + (x-cx)*cosA - (y-cy)*sinA, <br>
+Y = cx + (x-cx)*sinA + (y-cy)*cosA, cx, cy is centre coordinates, A is the angle of rotation. <br> 
+The OpenGL function is glRotatef (A, x, y, z). <br>
