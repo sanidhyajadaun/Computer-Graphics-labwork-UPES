@@ -175,3 +175,14 @@ It contains program for performing character generation. <br>
 Character generated :- "L"
 
 #
+
+## **Experiment 14 : Performing 2D Transformations on object**
+
+Transformations play a very important role in manipulating objects on screen. There are three basic kinds of Transformations in Computer Graphics: <br>
+1. Translation 
+2. Rotation 
+3. Scaling 
+
+Translation: Translation refers to moving an object to a different position on screen. <br>
+Formula: X = x + tx, Y = y + ty; where tx and ty are translation coordinates <br>
+The OpenGL function is glTranslatef( tx, ty, tz ); <br>
