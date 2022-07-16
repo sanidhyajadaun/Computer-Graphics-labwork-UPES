@@ -193,3 +193,7 @@ The above formula will rotate the point around the origin. To rotate around a di
 X = cx + (x-cx)*cosA - (y-cy)*sinA, <br>
 Y = cx + (x-cx)*sinA + (y-cy)*cosA, cx, cy is centre coordinates, A is the angle of rotation. <br> 
 The OpenGL function is glRotatef (A, x, y, z). <br>
+
+Scaling : Scaling refers to zooming in and out an object in different scales across axes. Formula: X = x*sx, Y = y*sy, sx, sy being scaling factors. The OpenGL function is glScalef(float x, float y, float z)<br>
+
+#
