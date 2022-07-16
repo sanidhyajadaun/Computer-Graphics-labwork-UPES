@@ -197,3 +197,11 @@ The OpenGL function is glRotatef (A, x, y, z). <br>
 Scaling : Scaling refers to zooming in and out an object in different scales across axes. Formula: X = x*sx, Y = y*sy, sx, sy being scaling factors. The OpenGL function is glScalef(float x, float y, float z)<br>
 
 #
+
+## **Experiment 15 : Open End program**
+
+This open end program contains a figure that was specifically given by our teacher to perform.
+
+Hope you find it helpful !
+
+#
